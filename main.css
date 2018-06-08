@@ -157,7 +157,7 @@ input[type=button]:active {
 
 	.result {
 		width: 100%;
-		margin-bottom: 3vh;
+		margin-bottom: 4vh;
 		flex-grow: 1;
 		display: flex;
 		flex-direction: column;
