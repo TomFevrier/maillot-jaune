@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maillot Jaune</title>
+		<script src='papaparse.min.js'></script>
+        <script src='main.js'></script>
+		<link rel='stylesheet' href='main.css'>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+    <body>
+		<div id='container'>
+			<h1>Palmarès du Tour de France <br /> l'année de votre naissance</h1>
+			<input id='box' type='number' name='year' placeholder='2017' />
+			<input type='button' value='Découvrir' onclick='displayInfo();'>
+			<div id='error'></div>
+			<div id='palmares'>
+				<div class='result'>
+					<img src='./images/maillot_jaune.svg' class='jersey' />
+					<h2>Vainqueur</h2>
+					<p id='winner'>"</p>
+				</div>
+				<div class='result'>
+					<img src='./images/maillot_pois.svg' class='jersey' />
+					<h2>Meilleur grimpeur</h2>
+					<p id='climber'></p>
+				</div>
+				<div class='result'>
+					<img src='./images/maillot_vert.svg' class='jersey' />
+					<h2>Meilleur sprinter</h2>
+					<p id='sprinter'></p>
+				</div>
+			</div>
+		</div>
+
+    </body>
+</html>
