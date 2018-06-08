@@ -137,7 +137,6 @@ input[type=button]:active {
 		background-color: #ff503c;
 		color: white;
 	    border: none;
-		border-radius: 0.5vw;
 	    padding: 1.2vw 1.2vw;
 	    text-decoration: none;
 	    margin: 1vh;
@@ -145,12 +144,6 @@ input[type=button]:active {
 	    cursor: pointer;
 		font-size: 3vw;
 		box-shadow: 0 0.2vw #ff323c;
-	}
-
-	input[type=button]:active {
-		box-shadow: 0 0;
-		transform: translateY(0.2vw);
-
 	}
 
 	#palmares {
